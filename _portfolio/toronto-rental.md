@@ -58,3 +58,5 @@ The 31 shortlisted neighbourhoods were then visualized on an interactive map, gr
 ## About this Project
 
 This was completed as the capstone project for the **IBM Data Science Professional Certificate** . This was a 9-course program covering end-to-end data science workflows including data collection, analysis, machine learning and visualization.
+
+[View on GitHub](https://github.com/anushahegde10/toronto-rental-analysis-)

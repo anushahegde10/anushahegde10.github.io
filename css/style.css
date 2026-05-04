@@ -526,6 +526,12 @@ nav {
   letter-spacing: 0.03em;
 }
 
+/* Tool pills in dark project header need to be lighter */
+.project-header .tool-pill {
+  color: var(--color-text-light);
+}
+
+
 .tool-pill::before {
   content: "#";
 }
@@ -914,4 +920,14 @@ nav {
   font-size: 18px;
   color: var(--color-green);
   font-weight: 700;
+}
+
+/* Links inside project content - colored and underlined */
+.project-content a {
+  color: var(--color-pink);
+  text-decoration: underline;
+}
+
+.project-content a:hover {
+  color: var(--color-green);
 }
