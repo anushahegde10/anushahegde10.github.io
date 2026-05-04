@@ -1,0 +1,54 @@
+<!-- ============================================
+     NAVIGATION BAR
+     This file is included on every page
+     Change it here and it updates everywhere
+     ============================================ -->
+<nav id="navbar">
+
+  <!-- Left side - logo and icon -->
+  <div class="nav-logo">
+    <a href="{{ '/' | relative_url }}">
+      <!-- Icon sitting next to logo text -->
+      My Data Journal
+    </a>
+  </div>
+
+  <!-- Right side - menu links -->
+  <ul class="nav-links">
+  <li>
+    <a href="{{ '/' | relative_url }}"
+       class="{% if page.url == '/' %}active{% endif %}">
+      Home
+    </a>
+  </li>
+  <li>
+    <a href="{{ '/portfolio/' | relative_url }}"
+       class="{% if page.url contains 'portfolio' %}active{% endif %}">
+      Portfolio
+    </a>
+  </li>
+  <li>
+    <a href="{{ '/journal/' | relative_url }}"
+       class="{% if page.url contains 'journal' %}active{% endif %}">
+      Journal
+    </a>
+  </li>
+  <li>
+    <a href="{{ '/about/' | relative_url }}"
+       class="{% if page.url contains 'about' %}active{% endif %}">
+      About Me
+    </a>
+  </li>
+  <li>
+    <a href="/#footer">Connect</a>
+  </li>
+</ul>
+
+  <!-- Hamburger button for mobile -->
+  <button class="hamburger" id="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+
+</nav>

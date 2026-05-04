@@ -1,0 +1,23 @@
+---
+layout: default
+title: Portfolio
+---
+
+<div class="project-header">
+  <div class="project-header-content">
+    <p class="project-type">All Projects</p>
+    <h1 class="project-title">Portfolio</h1>
+    <p class="project-subtitle">End-to-end analytics projects — business questions, data, insights.</p>
+  </div>
+</div>
+
+<div class="portfolio-index">
+  {% assign projects = site.portfolio | sort: "order" %}
+  {% for project in projects %}
+  <a href="{{ project.url }}" class="portfolio-index-item">
+    <span class="portfolio-index-type">{{ project.type }}</span>
+    <span class="portfolio-index-title">{{ project.title }}</span>
+    <span class="portfolio-index-arrow">→</span>
+  </a>
+  {% endfor %}
+</div>

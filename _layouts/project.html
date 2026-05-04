@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<!-- ============================================
+     PROJECT PAGE LAYOUT
+     This template is used for every project
+     Change this file to update all project pages
+     ============================================ -->
+
+<div class="project-header">
+  <div class="project-header-content">
+    <p class="project-type">{{ page.type }}</p>
+    <h1 class="project-title">{{ page.title }}</h1>
+    <p class="project-subtitle">{{ page.subtitle }}</p>
+    <div class="project-tools">
+      {% for tool in page.tools %}
+        <span class="tool-pill">{{ tool }}</span>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<div class="project-content">
+  {{ content }}
+</div>
+
+<div class="project-back">
+  <a href="/portfolio/" class="back-link">← Back to Portfolio</a>
+</div>
