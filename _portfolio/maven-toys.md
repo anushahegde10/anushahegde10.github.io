@@ -6,45 +6,58 @@ tools: [Power BI, DAX, Data Analysis]
 type: "Analytics & Visualization"
 featured: false
 order: 6
-thumbnail: /assets/img/portfolio/maven-toys-dashboard.png
+thumbnail: /assets/img/portfolio/circus.png
 ---
+## Project Background
 
-![Maven Toys Dashboard](/assets/img/portfolio/maven-toys-dashboard.png)
+Maven Toys operates 50 stores across 29 cities in Mexico, selling across 5 product
+categories. With over 1 million units sold between 2017 and 2018, the business
+needed clarity on what was actually driving revenue and where inventory risks
+were quietly costing sales.
 
-*Figure: snapshot of the Power BI dashboard built for this project.*
-
-## The Business Question
-
-Maven Toys operates 50 stores across 29 cities in Mexico. The question was: **which product categories, store locations and cities generate the most revenue — and which products are at risk of stocking out?**
+The core question: **which product categories, store locations and cities generate
+the most revenue and which products are at risk of stocking out?**
 
 ## What I Did
 
-Analyzed sales data from 2017 to 2018 covering 1,090,565 units sold across all stores. Built a Power BI dashboard designed for three audiences — store managers, category buyers, and executive leadership.
+I analyzed sales data from 2017 to 2018 covering 1,090,565 units sold across all
+stores. Built a Power BI dashboard designed for three audiences store managers,
+category buyers, and executive leadership.
 
-Key analysis areas:
+The analysis covered four key areas:
 
-- Revenue and profit margin by product category
-- Store and city performance comparison
-- Inventory stock-out risk by product and location
-- Seasonal sales trends across the study period
+- **Revenue and profit margin** by product category
+- **Store and city performance** comparison across 29 cities
+- **Inventory stock-out risk** by product and location
+- **Seasonal sales trends** across the study period
 
 ## Key Findings
 
-- **Gross Revenue: $14.44M** with a net profit of $4.01M and 27.79% profit margin
-- **Electronics** has the highest profit margin at 44.57% — but only 3 products available
-- **Toys** category generates double the revenue of other categories despite lower margin
-- **Lego Bricks** is the top revenue product at $2.4M — **Jenga** is the most profitable at 70% margin
+![Maven Toys Dashboard](/assets/img/portfolio/maven-toys-dashboard.png)
+
+- **Gross Revenue: $14.44M** with net profit of $4.01M and 27.79% overall margin
+- **Electronics** has the highest profit margin at 44.57% .But Maven Toys only
+  carries 3 electronics products, leaving significant revenue on the table
+- **Toys** category generates double the revenue of any other category despite
+  lower margin. This is the most important category to nurture
+- **Lego Bricks** is the top revenue product at $2.4M. **Jenga** is the most
+  profitable at 70% margin
 - **Ciudad de Mexico** drives 27% of total revenue
-- **Airport stores** generate higher average revenue with profit margins above 30%
-- Maximum sales recorded in **April and December** — seasonal peaks are consistent
-- 2018 revenue tracking 30% ahead of 2017 by September
+- **Airport stores** consistently outperform with profit margins above 30% opening more airport locations is a clear growth opportunity
+- Maximum sales recorded in **April and December** - seasonal peaks are consistent
+  year over year
+- Some products need restocking in as little as **4 days** to avoid lost sales
+- 2018 revenue tracking **30% ahead of 2017** by September
 
-## Tools & Approach
+## Tools & Techniques
 
-- **Power BI** — multi-page dashboard covering sales, inventory and store performance
-- **DAX** — KPI calculations, YoY comparisons and profit margin measures
-- **Inventory Analysis** — stock-out risk modelling by city and product
+- **Power BI** : Dashboard covering sales, inventory and store performance
+- **DAX** : KPI calculations, YoY comparisons and profit margin measures
+- **Inventory Analysis** : stock-out risk modelling by city and product
 
-## Context
+## About this Project
 
-This project was completed as part of the **Maven Analytics Toy Sales Challenge** — a community data challenge focused on retail analytics and inventory management.
+This was completed as part of the **Maven Analytics Toy Sales Challenge** which is a
+community data challenge focused on retail analytics and inventory management.
+
+[View on GitHub](https://github.com/anushahegde10/maven-toys-sales-analysis)

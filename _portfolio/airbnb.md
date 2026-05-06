@@ -6,38 +6,46 @@ tools: [Power BI, Data Analysis, DAX]
 type: "Analytics & Visualization"
 featured: true
 order: 3
-thumbnail: /assets/airbnb-dashboard.png
+thumbnail: /assets/img/portfolio/Airbnb_Maven.png
 ---
-## The Business Question
+## Project Background
 
-With 280,000+ listings across 10 major cities, Airbnb operates in vastly different markets. The question was: **what drives occupancy and pricing across global vacation destinations, and how did the pandemic change everything?**
+Travel is not just recreational, it is a major economic driver. Airbnb operates across vastly different global markets, each with its own pricing dynamics, seasonal patterns and traveller preferences.
+
+This project was submitted to the **Maven Analytics Vacation Challenge** . This is a community data challenge using real Airbnb data from 2008 to 2021 across 10 major cities and 280,000+ listings.
+
+The core question: **what drives occupancy and pricing across global vacation destinations, and how did the pandemic change everything?**
 
 ## What I Did
 
-Analyzed Airbnb data spanning 2008 to 2021 across 10 of the world's most popular travel destinations. Built an explanatory Power BI dashboard designed for three audiences — travelers, hosts, and Airbnb itself.
+I analyzed Airbnb data spanning 2008 to 2021 and built an explanatory Power BI dashboard designed for three audiences - travelers, hosts, and Airbnb itself.
 
-Key analysis areas:
+The analysis covered four key areas:
 
-- Occupancy and listing trends over time
-- Pricing patterns by city, property type and host rating
-- Seasonal demand patterns by destination
-- Post-pandemic impact on occupancy rates
+- **Occupancy and listing trends** over time across 10 cities
+- **Pricing patterns** by city, property type, host rating and SuperHost status
+- **Seasonal demand patterns** by destination
+- **Post-pandemic impact** on global occupancy rates
 
 ## Key Findings
 
+![Airbnb Global Dashboard](/assets/img/portfolio/airbnb_dashboard.jpg)
+
 - **Paris** is the most preferred destination with ~100k reviewed stays per year, followed by Rome and New York
-- Average listing price has remained consistent at ~$45/night globally since 2010
-- Price is driven by city, property type, host rating and SuperHost status — not by month
-- Pandemic caused a ~50% decline in occupancy — recovery is trending upward
-- **Sydney, Cape Town and Paris** have the highest average prices per night
-- **Rome and Mexico City** offer the best value — economical with good ratings year-round
+- Global listing prices have remained consistent at ~$45/night since 2010 price is driven by city and property type, not by season
+- **Sydney, Cape Town and Paris** command the highest average nightly prices
+- **Rome and Mexico City** offer the best value economical pricing, strong ratings and consistent year-round demand
+- Pandemic caused a ~50% decline in occupancy globally recovery is trending upward but forecasts remain cautious
+- Most preferred accommodation type globally is **Entire Apartment**
 
-## Tools & Approach
+## Tools & Techniques
 
-- **Power BI** — data modelling, DAX measures and interactive dashboard
-- **Data Cleaning** — handling missing values and preparing raw Airbnb data
-- **Exploratory Analysis** — occupancy trends, pricing correlations, seasonal patterns
+- **Power BI** : data modelling, DAX measures and interactive dashboard
+- **Data Cleaning** : handling missing values and preparing raw Airbnb data
+- **Exploratory Analysis** : occupancy trends, pricing correlations, seasonal patterns
 
-## Context
+## About this Project
 
-This project was completed as part of the **Maven Analytics Vacation Challenge** — a community data challenge where participants analyze real datasets and share findings publicly.
+This was submitted to the **Maven Analytics Vacation Challenge** . This is a popular community data challenge where participants analyze real datasets provided by Maven team and share findings publicly.
+
+[View on GitHub](https://github.com/anushahegde10/airbnb-vacation-analysis)
